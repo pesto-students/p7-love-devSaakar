@@ -44,3 +44,19 @@
 .green {
   background-color: green;
 }
+
+.box__container:hover .red{
+  transform: rotate(90deg) translate(0,200px);
+}
+
+.box__container:hover .yellow{
+  transform: rotate(-90deg) translate(0,200px);
+}
+
+.box__container:hover .blue{
+  transform: rotate(-90deg) translate(0,-200px);
+}
+
+.box__container:hover .green{
+  transform: rotate(90deg) translate(0,-200px);
+}

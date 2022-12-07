@@ -4,16 +4,17 @@ Person.prototype.initialize = function(name, age) {
     this.age = age;
     this.name = name;
 }
-
-function Teacher() {};
-
-Teacher.prototype = Object.create(Person.prototype);
+function Teacher() {
+    Person.call(this);
+};
 
 Teacher.prototype.teach = function(subject) {
     this.subject = subject;
-    return `${this.name} is now teaching ${this.subject}`;
+    return `${this.name} is a teacher of ${this.subject}`;
 };
 
+Object.setPrototypeOf(Teacher.prototype, Person.prototype); 
+// Teacher.prototype = Object.create(Person.prototype);
 const professor = new Teacher();
 
 professor.initialize("Vihay", 45);

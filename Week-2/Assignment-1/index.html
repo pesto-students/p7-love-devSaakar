@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Layout</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="heading container flex">
+        <h1 class="header-title text-3xl flex">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+          veritatis
+        </h1>
+      </header>
+      <div class="hero-section flex">
+        <div class="about__text flex">
+          <div class="text col-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              consequuntur hic est, assumenda dolore quod quis sapiente dolores
+              excepturi, porro magnam aperiam iusto nesciunt officiis voluptas
+              sunt veritatis accusamus dolor.
+            </p>
+          </div>
+          <div class="text col-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis excepturi nemo optio et vero? Fugiat esse vitae eaque
+              quod amet incidunt natus rerum ratione autem ut atque id, harum
+              voluptates.
+            </p>
+          </div>
+        </div>
+        <div class="banner__image col-6 flex">
+          <img
+            class="banner-image"
+            src="./assets/Screenshot 2022-11-20 at 2.07.37 PM.png"
+            alt="banner.png"
+          />
+        </div>
+        <div class="banner__about col-6">
+          <div class="flex column">
+            <div class="banner__text-1">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Exercitationem, repudiandae in reiciendis voluptatibus omnis
+                perferendis odio nesciunt aliquid vitae blanditiis.
+              </p>
+            </div>
+            <div class="banner__text-2">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Exercitationem, repudiandae in reiciendis voluptatibus omnis
+                perferendis odio nesciunt aliquid vitae blanditiis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form__container container flex column">
+          <form action="" class="flex column items-start">
+            <h2>Survey Form</h2>
+          <div class="radio-input flex justify-start">
+            <h4 class="pe-2">Title</h4>
+            <label for="mr">
+              <input type="radio" name="title" id="mr" value="mr" />
+              Mr.</label
+            >
+            <label for="mrs">
+              <input type="radio" name="title" id="mrs" value="mrs" />
+              Mrs.</label
+            >
+            <label for="miss">
+              <input type="radio" name="title" id="miss" value="miss" />
+              Miss</label
+            >
+          </div>
+          <label for="firstName">
+            First Name :
+            <input type="text" name="firstName" id="firstName" />
+          </label>
+          <label for="lastName">
+            Last Name :
+            <input type="text" name="lastName" id="lastName" />
+          </label>
+          <label for="email">
+            Email :
+            <input type="email" name="email" id="email" />
+          </label>
+          <label for="mobile">
+            Phone Number :
+            <input type="tel" name="mobile" id="mobile" />
+          </label>
+          <label for="password">
+            Password :
+            <input type="password" name="password" id="password" />
+          </label>
+          <label for="confirmPassword">
+            Confirm Password :
+            <input
+              type="password"
+              name="confirmPassword"
+              id="confirmPassword"
+            />
+          </label>
+          <label for="country">Country:
+
+          <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="uk">UK</option>
+            <option value="us">USA</option>
+            <option value="eu">Europe</option>
+          </select></label>
+          <label class="flex" for="terms">
+            <input type="checkbox" name="terms" id="terms">
+            <p>
+                I agree to the <a target="_blank" href="https://www.pesto.tech/">terms and conditions</a> 
+            </p>
+          </label>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,6 +1,7 @@
 console.log('Best time to buy and sell stock');
 
-// ! O(N^2) Time Complexity
+// ! Time Complexity: O(N^2)
+// ! Auxiliary Space: O(1)
 
 // function calculateProfit(arr){
 //     let maxProfit = 0;
@@ -15,7 +16,9 @@ console.log('Best time to buy and sell stock');
 //     return maxProfit;
 // }
 
-// ! O(N) Time Complexity
+
+// ! Time Complexity: O(N)
+// ! Auxiliary Space: O(1)
 
 function calculateProfit(arr){
     let maxProfit = 0;

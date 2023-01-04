@@ -1,5 +1,8 @@
 console.log('Pair With Given Difference');
 
+// ! Time Complexity: O(N)
+// ! Auxiliary Space: O(N)
+
 function pairDifferenceExist(A,B){
     let result = new Set(A);
     if(B===0){
@@ -10,7 +13,7 @@ function pairDifferenceExist(A,B){
         }
     }
     for(let element of A){
-        if(result.has(element+B)){
+        if(result.has(element+B) || result.has(element-B)){
             return 1;
         }
     }

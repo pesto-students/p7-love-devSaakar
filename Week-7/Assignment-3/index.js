@@ -1,5 +1,8 @@
 console.log('Sort 0,1,2');
 
+// ! Time Complexity: O(N)
+// ! Auxiliary Space: O(1)
+
 function sortZeroOneTwo(arr){
     let countZero = 0; 
     let countOne = 0;

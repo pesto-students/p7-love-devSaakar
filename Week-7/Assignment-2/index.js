@@ -1,5 +1,8 @@
 console.log(" Spiral Order Matrix II");
 
+// ! Time Complexity: O(N^2)
+// ! Auxiliary Space: O(1)
+
 function printSpiral(arr) {
   let startRow = 0;
   let startCol = 0;

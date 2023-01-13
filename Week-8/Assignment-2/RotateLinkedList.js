@@ -15,18 +15,6 @@ LinkedList.prototype.rotate = function(k){
     this.head = current.next;
     this.tail = current;
     this.tail.next = null;
-    // let prev = this.head;
-    // let current = this.head.next;
-    // while(current !== null){
-    //     let next = current.next;
-    //     current.next = prev;
-    //     prev = current;
-    //     current = next;
-    // }
-    // this.tail = this.head;
-    // this.head = prev;
-    // this.tail.next = null;
-    // return true;
 }
 
 const list = new LinkedList();

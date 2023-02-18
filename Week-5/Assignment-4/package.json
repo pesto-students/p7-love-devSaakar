@@ -1,0 +1,14 @@
+{
+  "name": "assignment-4",
+  "version": "1.0.0",
+  "description": "Write testcases for calculator functions.",
+  "main": "index.js",
+  "author": "Sakar",
+  "license": "MIT",
+  "scripts": {
+    "test":"jest calculator.test.js"
+  },
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}

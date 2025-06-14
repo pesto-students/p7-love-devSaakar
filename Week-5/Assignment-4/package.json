@@ -9,6 +9,6 @@
     "test":"jest calculator.test.js"
   },
   "dependencies": {
-    "jest": "^29.3.1"
+    "jest": "^30.0.0"
   }
 }
